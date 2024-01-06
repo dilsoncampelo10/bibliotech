@@ -3,6 +3,10 @@
 @section('title','Principal')
 
 @section('content')
-    <h1>Olá mundo</h1>
+    <div>
+        <div class="card text-bg-primary mb-3">
+          sdds
+        </div>
+    </div>
 
 @endsection

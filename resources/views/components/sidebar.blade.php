@@ -20,6 +20,13 @@
           </li>
           <li>
             <a href="#" class="nav-link text-white">
+              <i class="fa-solid fa-book-open-reader"></i>
+              Leitores
+            </a>
+          </li>
+         
+          <li>
+            <a href="#" class="nav-link text-white">
                
                 <i class="fa-brands fa-leanpub"></i>
               Empréstimos

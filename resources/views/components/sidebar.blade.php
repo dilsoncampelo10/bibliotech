@@ -44,15 +44,18 @@
               Usuários
             </a>
           </li>
-          <li>
-            <a href="#" class="nav-link text-white">
-                <i class="fa-solid fa-right-from-bracket"></i>
-              Sair
-            </a>
-          </li>
+    
         </ul>
+    
+           
+          <form method="POST" action="/logout">
+            @csrf
+              <button type="submit" class="btn btn-danger form-control ">  <i class="fa-solid fa-right-from-bracket"></i> Sair</button>
+          </form>
+      
         <hr>
         <div class="dropdown">
+          
           <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
             <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2">
             <strong>mdo</strong>

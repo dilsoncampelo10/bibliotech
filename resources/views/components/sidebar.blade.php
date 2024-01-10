@@ -13,24 +13,37 @@
             </a>
           </li>
           <li>
-            <a href="#" class="nav-link text-white">
-                <i class="fa-solid fa-book-bookmark"></i>
+      
+            <button class="nav-link text-white dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa-solid fa-book-bookmark"></i>
               Livros
-            </a>
+            </button>
+            <ul class="dropdown-menu drop_relative ">
+              <li><a class="dropdown-item text-white" href="#">Livros</a></li>
+              <li><a class="dropdown-item text-white" href="#">Cadastrar Livro</a></li>
+            </ul>
           </li>
           <li>
-            <a href="#" class="nav-link text-white">
+  
+            <button class="nav-link text-white dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false">
               <i class="fa-solid fa-book-open-reader"></i>
               Leitores
-            </a>
+            </button>
+            <ul class="dropdown-menu drop_relative ">
+              <li><a class="dropdown-item text-white" href="#">Leitores</a></li>
+              <li><a class="dropdown-item text-white" href="#">Cadastrar Leitor</a></li>
+            </ul>
           </li>
          
           <li>
-            <a href="#" class="nav-link text-white">
-               
-                <i class="fa-brands fa-leanpub"></i>
+            <button class="nav-link text-white dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa-brands fa-leanpub"></i>
               Empréstimos
-            </a>
+            </button>
+            <ul class="dropdown-menu drop_relative ">
+              <li><a class="dropdown-item text-white" href="#">Empréstimos</a></li>
+              <li><a class="dropdown-item text-white" href="#">Cadastrar Empréstimo</a></li>
+            </ul>
           </li>
           <li>
             <a href="#" class="nav-link text-white">
@@ -39,10 +52,15 @@
             </a>
           </li>
           <li>
-            <a href="#" class="nav-link text-white">
-                <i class="fa-solid fa-users"></i>
+      
+            <button class="nav-link text-white dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa-solid fa-users"></i>
               Usuários
-            </a>
+            </button>
+            <ul class="dropdown-menu drop_relative ">
+              <li><a class="dropdown-item text-white" href="#">Usuários</a></li>
+              <li><a class="dropdown-item text-white" href="#">Cadastrar Usuários</a></li>
+            </ul>
           </li>
     
         </ul>

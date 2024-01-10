@@ -1,1 +1,10 @@
-@import url("@bootstrap/css/bootstrap.min.css")
+@import url("@bootstrap/css/bootstrap.min.css");
+
+.drop_relative{
+    position: relative !important;
+    transform: none !important;
+    background-color: transparent;
+}
+.dropdown-item:hover{
+    color: black !important;
+}

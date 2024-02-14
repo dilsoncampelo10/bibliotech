@@ -51,8 +51,49 @@
               Reservas
             </a>
           </li>
+         
+
           <li>
       
+            <button class="nav-link text-white dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa-solid fa-building-columns"></i>
+              Editoras
+            </button>
+            <ul class="dropdown-menu drop_relative ">
+              <li><a class="dropdown-item text-white" href="#">Edidtoras</a></li>
+              <li><a class="dropdown-item text-white" href="#">Cadastrar Editora</a></li>
+            </ul>
+          </li>
+
+          <li>
+      
+            <button class="nav-link text-white dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa-solid fa-address-book"></i>
+              Autores
+            </button>
+            <ul class="dropdown-menu drop_relative ">
+              <li><a class="dropdown-item text-white" href="#">Autores</a></li>
+              <li><a class="dropdown-item text-white" href="#">Cadastrar Autor</a></li>
+            </ul>
+          </li>
+
+          <li>
+
+            <li>
+      
+              <button class="nav-link text-white dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-icons"></i>
+                Categorias
+              </button>
+              <ul class="dropdown-menu drop_relative ">
+                <li><a class="dropdown-item text-white" href="#">Categorias</a></li>
+                <li><a class="dropdown-item text-white" href="#">Cadastrar Categoria</a></li>
+              </ul>
+            </li>
+  
+            <li>
+      
+          
             <button class="nav-link text-white dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false">
               <i class="fa-solid fa-users"></i>
               Usuários
@@ -62,6 +103,8 @@
               <li><a class="dropdown-item text-white" href="#">Cadastrar Usuários</a></li>
             </ul>
           </li>
+
+          
     
         </ul>
     

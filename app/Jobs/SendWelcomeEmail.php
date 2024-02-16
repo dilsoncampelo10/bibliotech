@@ -4,6 +4,7 @@ namespace App\Jobs;
 
 use App\Mail\WelcomeEmail;
 use App\Models\User;
+use App\Notifications\WelcomeMessage;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldBeUnique;
 use Illuminate\Contracts\Queue\ShouldQueue;
@@ -30,6 +31,6 @@ class SendWelcomeEmail implements ShouldQueue
      */
     public function handle(): void
     {
-        Mail::send(new WelcomeEmail($this->user));
+        $this->user->notify(new WelcomeMessage($this->user));
     }
 }

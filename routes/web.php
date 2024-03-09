@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AuthorController;
 use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
@@ -21,4 +22,6 @@ Route::middleware([
     'verified',
 ])->group(function () {
     Route::get('/', [HomeController::class, 'index'])->name('home');
+    Route::get('/criar/autor', [AuthorController::class, 'create'])->name('author.create');
+    Route::get('/autores', [AuthorController::class, 'index'])->name('author');
 });

@@ -72,8 +72,8 @@
               Autores
             </button>
             <ul class="dropdown-menu drop_relative ">
-              <li><a class="dropdown-item text-white" href="#">Autores</a></li>
-              <li><a class="dropdown-item text-white" href="#">Cadastrar Autor</a></li>
+              <li><a class="dropdown-item text-white" href="{{route('author')}}">Autores</a></li>
+              <li><a class="dropdown-item text-white" href="{{route('author.create')}}">Cadastrar Autor</a></li>
             </ul>
           </li>
 
